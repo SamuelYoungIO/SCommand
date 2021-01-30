@@ -10,11 +10,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-
 import java.util.*;
 import java.util.stream.Collectors;
+
 @Getter
-public final class BaseCommand implements CommandExecutor, TabCompleter {
+public class BaseCommand implements CommandExecutor, TabCompleter {
 
     @NotNull private final Map<String, BaseCommand> subCommands;
     @NotNull private final JavaPlugin plugin;
