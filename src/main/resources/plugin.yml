@@ -1,0 +1,7 @@
+name: BaseCommand
+version: ${project.version}
+main: io.sy.basecommand.BaseCommand
+api-version: 1.16
+authors: [ Sykuu ]
+description: An Abstract Command Handler
+website: samuelyoung.io
