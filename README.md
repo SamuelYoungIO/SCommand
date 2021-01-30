@@ -13,6 +13,6 @@ Maven Repository Information:
 <dependency>
     <groupId>com.github.SamuelYoungIO</groupId>
     <artifactId>SCommand</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 </dependency>
 ```
